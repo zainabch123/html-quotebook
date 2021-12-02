@@ -17,4 +17,4 @@ Today we are building a website to collect quotes. Quotes are text based so let'
 - Add fonts from [Google Fonts](https://fonts.google.com/)
 
 ## Challenge 2
-- Add alternating colours to the quotes without using additional classes
+- Can you add alternating colours to the quotes *without* adding any additional html elements or introducing new classes?
