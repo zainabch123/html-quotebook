@@ -13,8 +13,8 @@ Today we are building a website to collect quotes. Quotes are text based so let'
 - Use the appropriate HTML elements and take into consideration HTML semantics
 - Use [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) as a reference for relevant CSS properties
 
-## Challenge 1
+## Extension 1
 - Add fonts from [Google Fonts](https://fonts.google.com/)
 
-## Challenge 2
-- Can you add alternating colours to the quotes *without* adding any additional html elements or introducing new classes?
+## Extension 2
+- Add alternating colours to the quotes *without* adding any additional html elements or introducing new classes
