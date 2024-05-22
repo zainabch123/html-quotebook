@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr;
+}
+.header {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  background-color: skyblue;
+  text-align: start;
+  display: grid;
+  grid-template-columns: minmax(250px, 1000px);
+  justify-content: center;
+  align-content: center;
+  font-family: Lora;
+  font-size: 1.5rem;
+}
+h1 {
+  color: white;
+  margin-left: 10px;
+}
+main {
+  display: grid;
+  grid-template-columns: minmax(250px, 700px);
+  justify-content: center;
+}
+.authors-quotes {
+  margin: 10px;
+}
+h2 {
+  padding: 10px;
+  font-family: Lora;
+  font-size: 25px;
+}
+p {
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(161, 209, 229, 0.832);
+  font-family: Roboto;
+  font-size: 18px;
+}
+span {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 50px;
+  line-height: 2;
+  font-family: Lora;
+}
+.musicians-quotes p {
+  background-color: rgba(198, 225, 236, 0.832);
+}
+.actors-quotes p {
+  background-color: rgba(222, 228, 231, 0.832);
+}
