@@ -12,7 +12,7 @@
 .header {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
-  background-color: skyblue;
+  background-color: rgb(6, 142, 196);
   text-align: start;
   display: grid;
   grid-template-columns: minmax(250px, 1000px);
